@@ -1,0 +1,218 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url("D:\E-Voting System\HTML\img\voting.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    background-attachment: fixed;
+    font-family: sans-serif;
+}
+
+.nav-bar {
+    height: 100px;
+    width: auto;
+    background-color: darkcyan;
+    border: solid 2px;
+    border-color: solid skyblue;
+}
+
+.img {
+    margin: 2px 20px;
+    width: 110px;
+    height: 100px;
+}
+
+ul li {
+    height: 20px;
+    width: 60px;
+    display: inline-block;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 20px;
+    list-style: none;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover {
+    color: whitesmoke;
+}
+
+li:hover {
+    border-radius: 20px;
+    background: maroon;
+}
+
+.menu-right {
+    margin-top: -100px;
+    text-align: right;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    float: right;
+}
+
+.name {
+    margin-top: -80px;
+    margin-left: 150px;
+    font-family: 'Rye', cursive;
+    color: solid navy;
+    -webkit-text-stroke-color: navy;
+    -webkit-text-stroke-width: .3px;
+}
+
+.reg {
+    margin-top: 0px;
+    border: solid 2px;
+    border-top: 0px;
+    border-color: purple;
+    padding: 10px 50px;
+    width: auto;
+    height: auto;
+    background: mediumaquamarine;
+    position: relative;
+}
+
+.reg h1 {
+    padding: 2px;
+    color: darkgoldenrod;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.Table {
+    margin: 10px;
+    border-radius: 30px;
+}
+
+.row_tb {
+    padding: 5px;
+}
+
+td {
+    padding: 10px;
+}
+
+.lab {
+    border-bottom: 5px;
+    padding: 5px;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: darkcyan;
+    text-align: right;
+}
+
+.lab label {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: darkturquoise;
+}
+
+.ln label {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: sienna;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #111106;
+}
+
+.input {
+    background: none;
+    border: none;
+    border-bottom: solid 2px palevioletred;
+    padding: 4px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    outline: none;
+    color: white;
+}
+
+::-webkit-input-placeholder {
+    color: navy;
+}
+
+#ph {
+    text-align: left;
+}
+
+input[type=checkbox] {
+    width: 1.5em;
+    height: 1.5em;
+}
+
+input[type=radio] {
+    width: 1.3em;
+    height: 1.3em;
+}
+
+input[type=date] {
+    height: 30px;
+    width: 150px;
+    outline: none;
+    background-color: lightslategrey;
+}
+
+input[type=reset],
+input[type=submit] {
+    height: 40px;
+    width: 100px;
+    text-align: center;
+    padding: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 20px;
+    margin: 20px;
+    outline: none;
+    cursor: pointer;
+}
+
+#Marital {
+    height: 30px;
+    width: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: bold;
+    outline-style: inherit;
+    text-align: center;
+    background-color: rgb(242, 243, 174);
+}
+
+#Physical,
+#state {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: bold;
+    outline-style: inherit;
+    height: 30px;
+    width: 150px;
+    text-align: center;
+    background-color: rgb(242, 243, 174);
+}
+
+.inform {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: salmon;
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: black;
+}
+
+textarea {
+    font-size: 16px;
+    background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    outline-style: hidden;
+    outline-color: yellowgreen;
+}

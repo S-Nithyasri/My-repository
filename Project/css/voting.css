@@ -1,0 +1,67 @@
+#form {
+    width: 45%;
+    margin: auto;
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    background-image: url(img\voter.jpg), linear-gradient(orange, white, darkgreen);
+    font-family: lato, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+    padding: 20px 1mm;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+fieldset {
+    border-radius: 15px 15px 15px 15px;
+    background: url(voter.jpg) no-repeat center;
+    background-size: 95%;
+}
+
+label {
+    font-weight: bold;
+    display: inline-block;
+    margin: 5px;
+}
+
+input[type=data],
+[type=number],
+[type=text],
+select {
+    background: #fff;
+    border: 1px solid #000;
+    border-radius: 2px;
+    border-width: 1px;
+    color: rgb(109, 109, 160);
+    font-size: 15px;
+    margin: 5px;
+    padding: 12px 12px;
+    display: inline-block;
+}
+
+input [type=radio],
+g {
+    margin-left: 35px;
+}
+
+input[type=submit] {
+    color: maroon;
+    padding: 15px 50px;
+    text-align: center;
+    font-size: 24px;
+    margin: 12px 14px;
+    cursor: pointer;
+    border: 1px solid #000;
+    border-radius: 4px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
