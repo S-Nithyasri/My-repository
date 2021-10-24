@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewpoint" content="width=device-width,initial-scale=1.0">
+    <title>E-Voting </title>
+    <link rel="stylesheet" href="D:\E-Voting System\CSS\candidatepage.css">
+</head>
+
+<body>
+    <!--<img src="D:\E-Voting System\HTML\img\voter.jpg" alt="Logo" class="img">-->
+    <form action="conclusion.html">
+        <div id="form">
+            <fieldset>
+                <!--<image src="D:\E-Voting System\HTML\img\voter.jpg" alt="Logo" class="center"></image>-->
+                <legend>
+                    <h1>E-Voting System</h1>
+                </legend>
+
+                <img src="D:\E-Voting System\HTML\img\voter.jpg" alt="Logo" class="img">
+                <label>Name:</label>&nbsp &nbsp
+                <input type="text" name="name" placeholder="Enter your Name" required><br><br>
+
+                <label>Father Name:</label>&nbsp &nbsp
+                <input type="text" name="fname" placeholder="Enter your Father Name" required><br><br>
+
+                <label>DOB:</label>&nbsp &nbsp
+                <input type="date" name="dob" required><br><br>
+
+                <label>Gender:</label>&nbsp &nbsp
+                <input type="radio" name="gender" class="g" value="male">Male
+                <input type="radio" name="gender" class="g" value="female">Female
+                <input type="radio" name="gender" class="g" value="others" checked>Others
+                <br><br>
+
+
+                <label>Voter id Number:</label>
+                <input type="number" name="voter id number" placeholder="Enter your id number" maxlength="15" required>
+                <br><br>
+
+                <label>Political Parties:</label>&nbsp &nbsp;
+                <select name="political">
+                <option value="NULL">Choose Political Party</option>
+                <option value="NULL">BJP</option>
+                <option value="NULL">CPI</option>
+                <option value="NULL">BSP</option>
+                <option value="NULL">INC</option>
+                <option value="NULL">NCP</option>
+            </select><br>
+            </fieldset>
+            <input type="Submit" name="submit" value="submit">
+
+        </div>
+    </form>
+</body>
+
+</html>
